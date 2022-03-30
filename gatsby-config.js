@@ -32,6 +32,13 @@ module.exports = {
                 url:
                     process.env.WPGRAPHQL_URL ||
                     `https://wpgatsbydemo.wpengine.com/graphql`,
+                type: {
+                    MediaItem: {
+                        localFile: {
+                            maxFileSizeBytes: 30728640, // 30Mb
+                        },
+                    },
+                },
             },
         },
 
