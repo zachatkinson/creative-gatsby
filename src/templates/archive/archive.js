@@ -13,7 +13,7 @@ const BlogIndex = ({
 
   if (!posts.length) {
     return (
-      <Layout isHomePage>
+      <Layout>
         <Seo title="All posts" />
         <p>
           No blog posts found. Add posts to your WordPress site and they'll
@@ -24,7 +24,7 @@ const BlogIndex = ({
   }
 
   return (
-    <Layout isHomePage>
+    <Layout>
       <Seo title="All posts" />
 
 
